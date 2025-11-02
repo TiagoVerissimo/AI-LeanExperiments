@@ -56,6 +56,8 @@ To build and run this project, you need:
 - [elan](https://github.com/leanprover/elan) - Lean version manager
 - Lean 4 (v4.3.0 or compatible, automatically managed by elan)
 
+📘 **New to Lean?** Check out our [Quick Start Guide](QUICKSTART.md) for step-by-step instructions!
+
 ## Installation
 
 1. Install elan (Lean version manager):
@@ -109,6 +111,8 @@ This project is designed for educational purposes and experimentation with AI-dr
 - Implement more complex proof techniques
 - Add exercises with varying difficulty levels
 - Improve documentation and examples
+
+📝 **Want to contribute?** See our [Contributing Guide](CONTRIBUTING.md) for detailed guidelines.
 
 ## License
 
