@@ -33,7 +33,8 @@ theorem add_eq_zero {n m : Nat} (h : n + m = 0) : n = 0 ∧ m = 0 := by
     simp at h
     exact ⟨rfl, h⟩
   | succ n' => 
-    simp [Nat.add_succ] at h
+    -- succ n' + m = 0 is impossible since succ n' >= 1
+    simp [Nat.succ_add] at h
 
 /-- A natural number equals itself plus zero -/
 theorem self_eq_add_zero (n : Nat) : n = n + 0 := by

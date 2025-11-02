@@ -5,7 +5,10 @@ This file demonstrates how to use and compose the various theorems
 from the AI Lean Experiments library.
 -/
 
-import AILeanExperiments
+import AILeanExperiments.BasicArithmetic
+import AILeanExperiments.BasicAlgebra
+import AILeanExperiments.LogicExercises
+import AILeanExperiments.SetTheoryExercises
 
 namespace Examples
 
