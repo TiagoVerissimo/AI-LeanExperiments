@@ -13,7 +13,9 @@ AI-LeanExperiments/
 ├── AILeanExperiments/           # Main library directory
 │   ├── BasicArithmetic.lean     # Arithmetic properties (commutativity, associativity, etc.)
 │   ├── BasicAlgebra.lean        # Algebraic properties (equality, natural number proofs)
-│   └── LogicExercises.lean      # Propositional logic and proof techniques
+│   ├── LogicExercises.lean      # Propositional logic and proof techniques
+│   ├── SetTheoryExercises.lean  # Set operations and De Morgan's laws
+│   └── InductionExercises.lean  # Mathematical induction proofs
 ├── AILeanExperiments.lean       # Main library import file
 ├── Main.lean                    # Executable entry point
 ├── lakefile.lean                # Lake build configuration
@@ -37,6 +39,16 @@ AI-LeanExperiments/
 - Propositional logic: modus ponens, conjunction, disjunction
 - Implication properties: reflexivity, transitivity, contrapositive
 - Quantifiers: universal instantiation, existential introduction
+
+### SetTheoryExercises
+- Set operations: empty set, subset relations, union, intersection
+- Set properties: commutativity of union and intersection
+- De Morgan's laws for sets
+
+### InductionExercises
+- Sum formulas: sum of first n natural numbers, sum of odd numbers
+- Power properties: 2^n is positive, n < 2^n
+- Strong induction examples
 
 ## Prerequisites
 

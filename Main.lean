@@ -14,5 +14,7 @@ def main : IO Unit := do
   IO.println "- BasicArithmetic: Addition, multiplication, and their properties"
   IO.println "- BasicAlgebra: Equality properties and simple algebraic proofs"
   IO.println "- LogicExercises: Propositional logic and proof techniques"
+  IO.println "- SetTheoryExercises: Basic set operations and De Morgan's laws"
+  IO.println "- InductionExercises: Mathematical induction and recursive proofs"
   IO.println ""
   IO.println "All theorems have been formally verified in Lean 4."
