@@ -1,0 +1,15 @@
+{
+  "lean4.input.enabled": true,
+  "lean4.input.leader": "\\",
+  "editor.formatOnSave": false,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/.lake/**": true,
+    "**/build/**": true
+  },
+  "files.exclude": {
+    "**/.lake": true
+  }
+}
