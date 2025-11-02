@@ -4,10 +4,6 @@
 /.lake/
 *.olean
 
-# IDE files
-.vscode/
-*.code-workspace
-
 # OS files
 .DS_Store
 Thumbs.db
@@ -16,3 +12,8 @@ Thumbs.db
 *~
 *.swp
 *.swo
+
+# User-specific IDE files
+.vscode/*.log
+.vscode/settings.local.json
+*.code-workspace
